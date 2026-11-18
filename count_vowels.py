@@ -1,0 +1,10 @@
+# Count the total number of vowels in a string.
+
+text = "Programming"
+count = 0
+
+for ch in text:
+    if ch.lower() in "aeiou":
+        count += 1
+
+print("Total vowels:", count)
